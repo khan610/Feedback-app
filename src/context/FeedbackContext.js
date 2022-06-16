@@ -30,6 +30,7 @@ export const FeedbackProvider = ({ children }) => {
   const addFeedback = (newFeedback) => {
     newFeedback.id = uuidv4();
     setFeedback([newFeedback, ...feedback]);
+    console.log("Khan Grande");
   };
 
   // Delete feedback
