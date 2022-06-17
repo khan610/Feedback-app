@@ -1,9 +1,9 @@
-import "../assets/spinner.gif";
+import spinner from "../assets/spinner.gif";
 
 function Spinner() {
   return (
     <img
-      src={Spinner}
+      src={spinner}
       alt="Loading..."
       style={{ width: "100px", margin: "auto", display: "block" }}
     />
